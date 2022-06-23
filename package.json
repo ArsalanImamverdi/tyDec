@@ -7,9 +7,19 @@
     "test": "jest --config jestconfig.json",
     "build": "tsc"
   },
+  "homepage": "https://github.com/ArsalanImamverdi/tyDec",
+  "bugs": {
+    "url": "https://github.com/ArsalanImamverdi/tyDec/issues",
+    "email": "arsalan@imamverdi.ir"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArsalanImamverdi/tyDec.git"
+  },
   "keywords": ["typescript", "decorators"],
   "author": "MohamadArsalan Imamverdi",
-  "license": "ISC",
+  "license": "MIT",
+  "private": false,
   "devDependencies": {
     "@types/jest": "^27.5.1",
     "jest": "^28.1.0",
