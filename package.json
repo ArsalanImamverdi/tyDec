@@ -1,0 +1,19 @@
+{
+  "name": "tyDec",
+  "version": "1.0.0",
+  "description": "tyDec is a decorator helper package in typescript. With Dec you can create decorators easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
+  },
+  "keywords": ["typescript", "decorators"],
+  "author": "MohamadArsalan Imamverdi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  }
+}
