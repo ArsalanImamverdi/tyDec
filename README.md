@@ -35,7 +35,7 @@ class ShouldbeLessThanDecoratorDescriptor extends PropertyDecoratorDescriptor<Sh
   public implement(
     target: any,
     propertyKey: string,
-    arg: PropertyTestDecorator
+    arg: ShouldbeLessThan
   ) {
     let value = target[propertyKey];
     Object.defineProperty(target, propertyKey, {
@@ -59,6 +59,14 @@ Finally create and export the decorator:
 ```typescript
 export const ShouldbeLessThan: IPropertyDecorator<ShouldbeLessThan> =
   tyDec.create(ShouldbeLessThanDecoratorDescriptor);
+```
+
+### Usage
+``` typescript
+export class SomeTestClass{
+  @ShouldbeLessThan({value:100})
+  someProperty:number;
+ }
 ```
 
 ## Contributing
