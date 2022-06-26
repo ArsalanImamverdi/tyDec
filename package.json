@@ -1,5 +1,5 @@
 {
-  "name": "tyDec",
+  "name": "tydec",
   "version": "1.0.0",
   "description": "tyDec is a decorator helper package in typescript. With Dec you can create decorators easily.",
   "main": "index.js",
